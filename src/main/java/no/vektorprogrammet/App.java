@@ -1,10 +1,12 @@
 package no.vektorprogrammet;
 
+import no.vektorprogrammet.GUI.AddAssistantView;
+
 /**
  * Hello world!
  */
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        AddAssistantView addAssistantView = new AddAssistantView();
     }
 }
